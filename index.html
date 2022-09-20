@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumir Servicio Apex</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <p>Mi Primera Pagina Web</p>
+    <script src="/js/consumir.js"></script>
+    <div id="resultado"></div>
+    <button onclick="peticionGet()">Mostrar Producto</button>
+    <button onclick="peticionPost('358','Pera',600,100)">Guardar Producto</button>
+    <button onclick="peticionPut('358','Limon',200,50)">Editar Producto</button>
+    <button onclick="peticionDelete('358')">Eliminar Producto</button>
+
+</body>
+
+</html>
